@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
   },
 });
 
-const AppBar = () => {
+const Index = () => {
   return <View style={styles.container}>
     <ScrollView horizontal scrollEnabled showsHorizontalScrollIndicator={false} style={{flexGrow: 1}} contentContainerStyle={styles.contentContainerStyle}>
       <AppBarTab text="Repositories" path="/" />
@@ -24,4 +24,4 @@ const AppBar = () => {
   </View>;
 };
 
-export default AppBar;
+export default Index;

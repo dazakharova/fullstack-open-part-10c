@@ -1,7 +1,7 @@
 import { View, Text, Image } from 'react-native';
 import ItemHeader from './ItemHeader';
 import ItemMetrics from './ItemMetrics';
-import theme from '../theme';
+import theme from '../../../theme';
 
 const styles = {
   avatar: {
