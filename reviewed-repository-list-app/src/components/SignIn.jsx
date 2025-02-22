@@ -88,6 +88,7 @@ const SignIn = () => {
             placeholder="Username"
             value={formik.values.username}
             onChangeText={formik.handleChange('username')}
+            autoCapitalize="none"
         />
         {formik.touched.username && formik.errors.username && (
             <Text style={{ color: '#d73a4a', marginHorizontal: 20 }}>{formik.errors.username}</Text>
@@ -98,6 +99,7 @@ const SignIn = () => {
             placeholder="Password"
             value={formik.values.password}
             onChangeText={formik.handleChange('password')}
+            autoCapitalize="none"
         />
         {formik.touched.password && formik.errors.password && (
             <Text style={{ color: '#d73a4a', marginHorizontal: 20 }}>{formik.errors.password}</Text>
