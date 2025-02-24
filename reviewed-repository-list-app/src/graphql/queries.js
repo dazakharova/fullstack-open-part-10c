@@ -21,3 +21,11 @@ export const GET_REPOSITORIES = gql`
   }
 `;
 
+export const GET_AUTHENTICATED_USER = gql`
+  query {
+    me {
+      id
+      username
+    }
+  }`
+
